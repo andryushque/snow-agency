@@ -1,8 +1,3 @@
-.logo
-  &__icon
-    width: 8rem
-    height: 3rem
-
 .header
   &-wrapper
     display: flex
@@ -10,6 +5,11 @@
     align-items: center
     min-height: 3.6rem
     padding-top: 4rem
+
+  .logo
+    &__icon
+      width: 8rem
+      height: 3rem
 
   .nav
     &__list
@@ -28,24 +28,15 @@
         color: $color-light
         transition: color 0.3s ease
 
-
   .mmenu
     display: none
     background: transparent
     padding: 0
-    &__line
-      display: block
-      width: 2rem
-      height: 0.2rem
-      display: block
-      margin: .4rem auto
-      background: $color-grey
+    &__icon
+      font-size: 2.4rem
+      color: $color-grey
     &:hover
       .mmenu
-        &__line
-          background: $color-light
-          transition: background 0.3s ease
-    &--active
-      .mmenu
-        &__line
-          background: $color-light
+        &__icon
+          color: $color-light
+          transition: color 0.3s ease
