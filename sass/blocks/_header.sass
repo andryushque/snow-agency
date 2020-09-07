@@ -6,16 +6,22 @@
   z-index: 100
   width: 100%
   padding: 4rem 0
+  transition: all ease-out .6s
   &-wrapper
     display: flex
     justify-content: space-between
     align-items: center
     min-height: 4rem
+  &--light
+    background: $color-light
 
   .logo
+    display: none
     &__icon
       width: 8rem
       height: 3rem
+    &--visible
+      display: block
 
   .nav
     &__list
@@ -30,11 +36,18 @@
     &__link
       font: normal 400 1.4rem "WorkSans"
       text-transform: uppercase
-      color: rgba($color-light, 0.75)
-      &:hover
-        text-decoration: none
-        color: $color-light
-        transition: color 0.3s ease
+      &--light
+        color: rgba($color-light, 0.75)
+        &:hover
+          text-decoration: none
+          color: $color-light
+          transition: color 0.3s ease
+      &--dark
+        color: rgba($color-dark, 0.75)
+        &:hover
+          text-decoration: none
+          color: $color-dark
+          transition: color 0.3s ease
 
   .mmenu
     display: none
@@ -42,9 +55,15 @@
     padding: 0
     &__icon
       font-size: 2.4rem
-      color: rgba($color-light, 0.75)
+      &--light
+        color: rgba($color-light, 0.75)
+      &--dark
+        color: rgba($color-dark, 0.75)
     &:hover
       .mmenu
         &__icon
-          color: $color-light
           transition: color 0.3s ease
+          &--light
+            color: $color-light
+          &--dark
+            color: $color-dark
