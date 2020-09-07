@@ -1,10 +1,16 @@
 .header
+  position: fixed
+  top: 0
+  left: 0
+  right: 0
+  z-index: 100
+  width: 100%
+  padding: 4rem 0
   &-wrapper
     display: flex
     justify-content: space-between
     align-items: center
-    min-height: 3.6rem
-    padding-top: 4rem
+    min-height: 4rem
 
   .logo
     &__icon
@@ -19,10 +25,12 @@
       list-style-type: none
     &__item
       margin-left: 2rem
+      &:last-child
+        margin-bottom: 0
     &__link
       font: normal 400 1.4rem "WorkSans"
       text-transform: uppercase
-      color: $color-grey
+      color: rgba($color-light, 0.75)
       &:hover
         text-decoration: none
         color: $color-light
@@ -34,7 +42,7 @@
     padding: 0
     &__icon
       font-size: 2.4rem
-      color: $color-grey
+      color: rgba($color-light, 0.75)
     &:hover
       .mmenu
         &__icon
