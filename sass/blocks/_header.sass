@@ -1,0 +1,51 @@
+.logo
+  &__icon
+    width: 8rem
+    height: 3rem
+
+.header
+  &-wrapper
+    display: flex
+    justify-content: space-between
+    align-items: center
+    min-height: 3.6rem
+    padding-top: 4rem
+
+  .nav
+    &__list
+      display: flex
+      margin: 0
+      padding: 0
+      list-style-type: none
+    &__item
+      margin-left: 2rem
+    &__link
+      font: normal 400 1.4rem "WorkSans"
+      text-transform: uppercase
+      color: $color-grey
+      &:hover
+        text-decoration: none
+        color: $color-light
+        transition: color 0.3s ease
+
+
+  .mmenu
+    display: none
+    background: transparent
+    padding: 0
+    &__line
+      display: block
+      width: 2rem
+      height: 0.2rem
+      display: block
+      margin: .4rem auto
+      background: $color-grey
+    &:hover
+      .mmenu
+        &__line
+          background: $color-light
+          transition: background 0.3s ease
+    &--active
+      .mmenu
+        &__line
+          background: $color-light
