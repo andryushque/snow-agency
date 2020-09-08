@@ -113,4 +113,21 @@ $(document).ready(function () {
       },
     },
   });
+
+  // Slider for blog section
+  $(".blog .owl-carousel").owlCarousel({
+    dots: true,
+    dotsEach: 1,
+    responsive: {
+      0: {
+        items: 1,
+      },
+      767: {
+        items: 2,
+      },
+      1200: {
+        items: 3,
+      },
+    },
+  });
 });
