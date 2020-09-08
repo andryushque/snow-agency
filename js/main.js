@@ -81,4 +81,12 @@ $(document).ready(function () {
         }
       }
     });
+
+  /*=== Owl carousel ===*/
+  // Slider for testimonials section
+  $(".owl-carousel").owlCarousel({
+    loop: true,
+    dots: true,
+    items: 1,
+  });
 });

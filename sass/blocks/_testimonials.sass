@@ -1,0 +1,40 @@
+.testimonials
+  padding: 12rem 0 6rem
+  background: url(../img/pattern-bg--lg.png) no-repeat
+  background-size: cover
+  color: $color-light
+  &__item
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+  &__text
+    max-width: 75rem
+    margin-bottom: 3.5rem
+    font: italic 400 2.4rem "PlayfairDisplay"
+    letter-spacing: 0.6px
+    text-align: center
+  &__name
+    margin-bottom: 10rem
+    font-: normal 500 1.4rem "WorkSans"
+    text-transform: uppercase
+    letter-spacing: 0.35px
+    text-align: center
+
+  .owl-carousel
+    .owl
+      &-dots
+        display: flex
+        justify-content: center
+        align-items: center
+        margin: 0 auto
+      &-dot
+        width: 0.6rem
+        height: 0.6rem
+        margin: 0 0.5rem
+        background: rgba($color-light, 0.75)
+        border-radius: 50%
+        &.active
+          width: 1rem
+          height: 1rem
+          background: $color-light
