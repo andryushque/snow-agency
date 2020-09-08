@@ -84,9 +84,33 @@ $(document).ready(function () {
 
   /*=== Owl carousel ===*/
   // Slider for testimonials section
-  $(".owl-carousel").owlCarousel({
+  $(".testimonials .owl-carousel").owlCarousel({
     loop: true,
     dots: true,
     items: 1,
+  });
+
+  // Slider for clients section
+  $(".clients .owl-carousel").owlCarousel({
+    loop: true,
+    autoplay: true,
+    dots: false,
+    responsive: {
+      0: {
+        items: 1,
+      },
+      575: {
+        items: 2,
+      },
+      767: {
+        items: 3,
+      },
+      991: {
+        items: 4,
+      },
+      1200: {
+        items: 5,
+      },
+    },
   });
 });
