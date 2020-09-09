@@ -1,4 +1,4 @@
-<?php require 'templates/header-short.php'; ?>
+<?php require 'templates/header-sm.php'; ?>
 
 <div class="message">
   <div class="container">
@@ -9,4 +9,4 @@
 </div>
 <!-- /.message -->
 
-<?php require 'templates/footer-short.php'; ?>
+<?php require 'templates/footer-sm.php'; ?>
