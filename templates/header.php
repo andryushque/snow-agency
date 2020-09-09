@@ -22,7 +22,6 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
   </head>
-
   <body>
     <header class="header">
       <div class="container">
@@ -72,18 +71,3 @@
       <!-- /.container -->
     </header>
     <!-- /.header -->
-
-    <div class="message">
-      <div class="container">
-        <h3 class="message__title title">Thank you for the comment!</h3>
-      </div>
-      <!-- /.container -->
-    </div>
-    <!-- /.message -->
-
-    <!-- JavaScript Files -->
-    <script src="js/jquery-3.5.1.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/main.js"></script>
-  </body>
-</html>

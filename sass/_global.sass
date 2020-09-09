@@ -49,19 +49,42 @@ a.anchor
   top: -11rem
   visibility: hidden
 
-.button
-  outline: none
-  border: none
-  text-align: center
-  cursor: pointer
-  word-break: break-word
-  text-decoration: none
+/*=== Buttons ===*/
+.btn
+  display: inline-flex
+  justify-content: center
+  align-items: center
+  min-width: 18rem
+  height: 5.4rem
+  padding: 0 2rem
+  font: normal 500 1.4rem "WorkSans"
+  letter-spacing: 0.35px
+  text-transform: uppercase
+  &--dark
+    border: 2px solid $color-dark
+    background: $color-dark
+    color: $color-light
+    &:hover
+      background: transparent
+      color: $color-dark
+      transition: background 0.3s ease, color 0.3s ease
+  &--light
+    border: 2px solid $color-light
+    background: $color-light
+    color: $color-dark
+    &:hover
+      background: transparent
+      color: $color-light
+      transition: background 0.3s ease, color 0.3s ease
 
 /*=== Message-comment ===*/
 .message
   margin-top: 12rem
   padding: 6rem 0
+  border-top: 1px solid rgba($color-light, 0.1)
+  border-bottom: 1px solid rgba($color-light, 0.1)
   background: $color-dark
   color: $color-light
   &__title
+    margin-bottom: 3rem
     font-size: 4rem
