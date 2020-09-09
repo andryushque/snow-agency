@@ -67,3 +67,20 @@
     &__text
       max-width: 100%
       margin-bottom: 2rem
+
+  .footer
+    &-top
+      padding: 8rem 0
+    &__item
+      width: 100%
+      &:nth-child(-n+2)
+        width: 50%
+        margin-bottom: 3rem
+    &__title
+      margin-bottom: 2rem
+    &__text
+      margin-bottom: 2rem
+    &__photos
+      grid-template-columns: repeat(4, 8.5rem)
+      grid-template-rows: repeat(2, 8.5rem)
+      justify-content: flex-start
