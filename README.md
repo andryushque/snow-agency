@@ -8,8 +8,6 @@
 
 HTML5, CSS3 / SASS, JavaScript / jQuery, PHP
 
-### Links to website
+### Link to website
 
 [https://andrey-ustinov.ru/snow-agency/](https://andrey-ustinov.ru/snow-agency/)
-
-[https://andryushque.github.io/snow-agency/](https://andryushque.github.io/snow-agency/)
