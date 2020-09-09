@@ -51,7 +51,7 @@
                 <a href="#blog" class="nav__link nav__link--light link">Blog</a>
               </li>
               <li class="nav__item">
-                <a href="#" class="nav__link nav__link--light link">Contact</a>
+                <a href="#contact" class="nav__link nav__link--light link">Contact</a>
               </li>
             </ul>
           </nav>
@@ -417,6 +417,61 @@
         <!-- /.container -->
       </section>
       <!-- /.blog -->
+
+      <a id="contact" class="anchor"></a>
+      <section class="contact">
+        <div class="container">
+          <div class="contact-wrapper">
+            <div class="contact__info">
+              <h2 class="contact__title title">Contact info:</h2>
+              <p class="p-text contact__text">
+                Praesent interdum congue mauris, et fringilla lacus pel
+                vitae. Quisque nisl mauris, aliquam eu ultrices vel, conse
+                vitae sapien at imperdiet risus. Quisque cursus risus id.
+                fermentum, in auctor quam consectetur.
+              </p>
+              <div class="contact__item">
+                <span class="contact__key">Address:</span>
+                <a htef="#" class="contact__link link">10111 Santa Monica Boulevard, LA</a>
+              </div>
+              <div class="contact__item">
+                <span class="contact__key">Phone:</span>
+                <a htef="tel:+44-987-065-908" class="contact__link link">+44 987 065 908</a>
+              </div>
+              <div class="contact__item">
+                <span class="contact__key">Email:</span>
+                <a htef="mailto:info@example.com" class="contact__link link">info@example.com</a>
+              </div>
+              <div class="contact__item">
+                <span class="contact__key">Fax:</span>
+                <a htef="#" class="contact__link link">+44 987 065 909</a>
+              </div>
+            </div>
+            <!-- /.contact__info -->
+            <div class="contact__form">
+              <form action="send.php" method="POST" class="form">
+                <div class="form__input-group">
+                  <input type="text" class="input form__input" placeholder="Your Name" name="name" minlength="2" required />
+                  <input type="email" class="input form__input" placeholder="Your Email" name="email" required />
+                </div>
+                <div class="form__input-group">
+                  <input type="text" class="input form__input" placeholder="Your Title" name="commentTitle" minlength="2" required />
+                </div>
+                <textarea class="textarea form__textarea" placeholder="Your Comment" name="commentText"></textarea>
+                <div class="form-form__bottom">
+                  <button class="button form__button form__button--dark" type="submit" name="form" value="message-form">
+                    Send Message
+                  </button>
+                </div>
+              </form>
+            </div>
+            <!-- /.contact__form -->
+          </div>
+          <!-- /.contact-wrapper -->
+        </div>
+        <!-- /.container -->
+      </section>
+      <!-- /.contact -->
     </main>
     <!-- /.main -->
 

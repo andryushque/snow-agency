@@ -1,13 +1,13 @@
-@mixin section-title ()
+@mixin section-title($text-align: center)
   margin-bottom: 3.5rem
   font: normal 700 3.8rem "PlayfairDisplay"
   letter-spacing: 0.95px
-  text-align: center
+  text-align: $text-align
 
-@mixin section-subtitle-text ()
+@mixin section-subtitle-text($text-align: center, $margin: 0 auto 3.5rem)
   max-width: 75rem
-  margin: 0 auto 3.5rem
+  margin: $margin
   font: normal 400 1.6rem "WorkSans"
   letter-spacing: 0.07px
   color: $color-grey
-  text-align: center
+  text-align: $text-align

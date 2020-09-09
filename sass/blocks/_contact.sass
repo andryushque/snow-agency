@@ -1,0 +1,77 @@
+.contact
+  padding: 12rem 0
+  background: #F6F6F6
+  color: $color-dark
+  border-top: 1px solid #ececec
+  &-wrapper
+    display: flex
+  &__info
+    width: 40%
+    padding-right: 7rem
+  &__title
+    @include section-title(left)
+  &__text
+    @include section-subtitle-text(left, 0 0 3.5rem)
+  &__item
+    margin-bottom: 1rem
+  &__key
+    display: inline-block
+    margin-right: 1rem
+    font: normal 500 1.5rem "WorkSans"
+    letter-spacing: 0.07px
+    color: $color-dark
+  &__link
+    font: normal 400 1.5rem "WorkSans"
+    letter-spacing: 0.07px
+    color: $color-grey
+
+  &__form
+    width: 60%
+    max-width: 70rem
+  .form
+    &__input-group
+      margin-bottom: 3rem
+      &:first-child
+        display: flex
+        align-items: center
+        justify-content: space-between
+        .form__input
+          width: 48.5%
+    &__input
+      width: 100%
+      height: 4.8rem
+      padding: 0 2rem
+    &__textarea
+      width: 100%
+      max-width: 100%
+      height: 17rem
+      max-height: 17rem
+      resize: none
+      padding: 2rem
+      margin-bottom: 3rem
+    &__input, &__textarea
+      border: none
+      outline: none
+      background-color: $color-light
+      font: normal 400 1.4rem/2rem "WorkSans"
+      letter-spacing: 0.07px
+      vertical-align: center
+      color: $color-grey
+      &::placeholder
+        color: #858585
+
+    &__button
+      width: 18rem
+      height: 5.4rem
+      text-align: center
+      border: 2px solid $color-dark
+      font: normal 500 1.4rem "WorkSans"
+      letter-spacing: 0.35px
+      text-transform: uppercase
+      &--dark
+        background: $color-dark
+        color: $color-light
+        &:hover
+          background: transparent
+          color: $color-dark
+          transition: background 0.3s ease, color 0.3s ease
