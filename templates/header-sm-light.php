@@ -23,47 +23,30 @@
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
   </head>
   <body>
-    <header class="header header-scroll">
+    <header class="header header--light">
       <div class="container">
         <div class="header-wrapper">
-          <a href="#" class="logo logo--light logo--visible">
-            <img
-              src="img/logo-light.png"
-              alt="Logotype: Snow"
-              class="logo__icon"
-            />
-          </a>
-          <a href="#" class="logo logo--dark">
+          <a href="#" class="logo logo--dark logo--visible">
             <img src="img/logo.png" alt="Logotype: Snow" class="logo__icon" />
           </a>
-          <nav class="nav nav--dark nav--hidden">
+          <nav class="nav nav--light nav--hidden">
             <ul class="nav__list">
               <li class="nav__item">
-                <a href="#" class="nav__link nav__link--light link">Home</a>
+                <a href="index.php" class="nav__link nav__link--dark link">Home</a>
               </li>
               <li class="nav__item">
-                <a href="#about" class="nav__link nav__link--light link"
-                  >About</a
-                >
-              </li>
-              <li class="nav__item">
-                <a href="#projects" class="nav__link nav__link--light link"
+                <a href="portfolio.php" class="nav__link nav__link--dark link"
                   >Projects</a
                 >
               </li>
               <li class="nav__item">
-                <a href="#blog" class="nav__link nav__link--light link">Blog</a>
-              </li>
-              <li class="nav__item">
-                <a href="#contact" class="nav__link nav__link--light link"
-                  >Contact</a
-                >
+                <a href="blog.php" class="nav__link nav__link--dark link">Blog</a>
               </li>
             </ul>
           </nav>
 
           <a class="button mmenu">
-            <i class="mmenu__icon mmenu__icon--light fas fa-bars"></i>
+            <i class="mmenu__icon mmenu__icon--dark fas fa-bars"></i>
           </a>
         </div>
         <!-- /.header-wrapper -->

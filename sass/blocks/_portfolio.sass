@@ -1,0 +1,48 @@
+.portfolio
+  padding: 12rem 0
+  background: $color-light
+  color: $color-dark
+
+  .cards
+    display: grid
+    grid-template-columns: repeat(3, 1fr)
+    grid-template-rows: repeat(3, 390px)
+    &__item
+      position: relative
+      &:hover
+        cursor: pointer
+        .cards
+          &__info
+            z-index: 10
+            background: rgba($color-dark, 0.75)
+            transition: background 0.3s ease
+    &__image
+      width: 100%
+      height: 100%
+      object-fit: cover
+    &__info
+      position: absolute
+      width: 100%
+      height: 100%
+      top: 0
+      left: 0
+      right: 0
+      bottom: 0
+      z-index: -10
+
+      display: flex
+      flex-direction: column
+      justify-content: center
+      align-items: center
+    &__title
+      margin-bottom: 2.5rem
+      font: normal 700 2.4rem "PlayfairDisplay"
+      letter-spacing: 0.72px
+      text-align: center
+      color: $color-light
+    &__subtitle
+      font: normal 500 1.4rem "WorkSans"
+      letter-spacing: 0.35px
+      text-transform: uppercase
+      text-align: center
+      color: $color-light

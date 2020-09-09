@@ -9,4 +9,4 @@
 </div>
 <!-- /.message -->
 
-<?php require 'templates/footer-sm.php'; ?>
+<?php require 'templates/footer-sm-dark.php'; ?>

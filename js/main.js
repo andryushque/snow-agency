@@ -12,28 +12,34 @@ $(document).ready(function () {
 
   /*=== Fixed Header Color ===*/
   // Change header color on scroll
+  function getLight() {
+    $(".header-scroll").addClass("header--light");
+    $(".header-scroll .logo--light").removeClass("logo--visible");
+    $(".header-scroll .logo--dark").addClass("logo--visible");
+    $(".header-scroll .nav__link").removeClass("nav__link--light");
+    $(".header-scroll .nav__link").addClass("nav__link--dark");
+    $(".header-scroll .nav").removeClass("nav--dark");
+    $(".header-scroll .nav").addClass("nav--light");
+    $(".header-scroll .mmenu__icon").removeClass("mmenu__icon--light");
+    $(".header-scroll .mmenu__icon").addClass("mmenu__icon--dark");
+  }
+  function getDark() {
+    $(".header-scroll").removeClass("header--light");
+    $(".header-scroll .logo--light").addClass("logo--visible");
+    $(".header-scroll .logo--dark").removeClass("logo--visible");
+    $(".header-scroll .nav__link").addClass("nav__link--light");
+    $(".header-scroll .nav__link").removeClass("nav__link--dark");
+    $(".header-scroll .nav").addClass("nav--dark");
+    $(".header-scroll .nav").removeClass("nav--light");
+    $(".header-scroll .mmenu__icon").removeClass("mmenu__icon--dark");
+    $(".header-scroll .mmenu__icon").addClass("mmenu__icon--light");
+  }
   $(function () {
     $(window).on("scroll", function () {
       if ($(window).scrollTop() > 50) {
-        $(".header").addClass("header--light");
-        $(".logo--light").removeClass("logo--visible");
-        $(".logo--dark").addClass("logo--visible");
-        $(".nav__link").removeClass("nav__link--light");
-        $(".nav__link").addClass("nav__link--dark");
-        $(".nav").removeClass("nav--dark");
-        $(".nav").addClass("nav--light");
-        $(".mmenu__icon").removeClass("mmenu__icon--light");
-        $(".mmenu__icon").addClass("mmenu__icon--dark");
+        getLight();
       } else {
-        $(".header").removeClass("header--light");
-        $(".logo--light").addClass("logo--visible");
-        $(".logo--dark").removeClass("logo--visible");
-        $(".nav__link").addClass("nav__link--light");
-        $(".nav__link").removeClass("nav__link--dark");
-        $(".nav").addClass("nav--dark");
-        $(".nav").removeClass("nav--light");
-        $(".mmenu__icon").removeClass("mmenu__icon--dark");
-        $(".mmenu__icon").addClass("mmenu__icon--light");
+        getDark();
       }
     });
   });
