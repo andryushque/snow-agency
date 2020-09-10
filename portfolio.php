@@ -112,6 +112,42 @@
           </div>
         </div>
         <!-- /.cards__item9 -->
+        <div class="cards__item cards__item--10">
+          <img
+            src="img/projects/portfolio-10.jpg"
+            alt="Project-10"
+            class="cards__image"
+          />
+          <div class="cards__info">
+            <h3 class="cards__title title">Project 10</h3>
+            <h4 class="cards__subtitle title">Subtitle 10</h4>
+          </div>
+        </div>
+        <!-- /.cards__item10 -->
+        <div class="cards__item cards__item--11">
+          <img
+            src="img/projects/portfolio-11.jpg"
+            alt="Project-11"
+            class="cards__image"
+          />
+          <div class="cards__info">
+            <h3 class="cards__title title">Project 11</h3>
+            <h4 class="cards__subtitle title">Subtitle 11</h4>
+          </div>
+        </div>
+        <!-- /.cards__item11 -->
+        <div class="cards__item cards__item--12">
+          <img
+            src="img/projects/portfolio-12.jpg"
+            alt="Project-12"
+            class="cards__image"
+          />
+          <div class="cards__info">
+            <h3 class="cards__title title">Project 12</h3>
+            <h4 class="cards__subtitle title">Subtitle 12</h4>
+          </div>
+        </div>
+        <!-- /.cards__item12 -->
       </div>
       <!-- /.cards -->
     </div>

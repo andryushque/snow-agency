@@ -1,12 +1,15 @@
 .portfolio
   padding: 12rem 0
-  background: $color-light
+  background: #F6F6F6
   color: $color-dark
+  &-wrapper
+    padding-top: 10rem
 
   .cards
     display: grid
     grid-template-columns: repeat(3, 1fr)
-    grid-template-rows: repeat(3, 390px)
+    grid-template-rows: repeat(3, 39rem)
+    grid-auto-rows: 39rem
     &__item
       position: relative
       &:hover
