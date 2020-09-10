@@ -1,4 +1,4 @@
-<?php require 'templates/header-sm.php'; ?>
+<?php require 'templates/header-sm-dark.php'; ?>
 
 <div class="message">
   <div class="container">

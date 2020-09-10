@@ -26,7 +26,7 @@
     <header class="header header--light">
       <div class="container">
         <div class="header-wrapper">
-          <a href="#" class="logo logo--dark logo--visible">
+          <a href="index.php" class="logo logo--dark logo--visible">
             <img src="img/logo.png" alt="Logotype: Snow" class="logo__icon" />
           </a>
           <nav class="nav nav--light nav--hidden">
