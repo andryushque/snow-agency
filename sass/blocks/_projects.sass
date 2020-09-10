@@ -6,6 +6,15 @@
     @include section-title()
   &__text
     @include section-subtitle-text()
+  &-wrapper
+    position: relative
+    padding-bottom: 8.4rem
+  &__button
+    position: absolute
+    bottom: 0
+    left: 50%
+    transform: translateX(-50%)
+    z-index: 10
 
   .cards
     display: grid

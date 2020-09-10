@@ -228,6 +228,16 @@
           <!-- /.cards__item9 -->
         </div>
         <!-- /.cards -->
+        <a
+          href="portfolio.php"
+          class="button projects__button btn btn--dark"
+          type="submit"
+          name="form"
+          value="message-form"
+          target="_blank"
+        >
+          Read more
+        </a>
       </div>
       <!-- /.projects-wrapper -->
     </div>
@@ -453,6 +463,16 @@
           <!-- /.cards__item -->
         </div>
         <!-- /.cards -->
+        <a
+          href="blog.php"
+          class="button blog__button btn btn--dark"
+          type="submit"
+          name="form"
+          value="message-form"
+          target="_blank"
+        >
+          Read more
+        </a>
       </div>
       <!-- /.blog-wrapper -->
     </div>
